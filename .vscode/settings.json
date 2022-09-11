@@ -1,0 +1,11 @@
+{
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex 🔃",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.autoBuild.run": "onSave"
+}

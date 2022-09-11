@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{../acad} % https://github.com/rstanuwijaya/latex-template
+
+\renewcommand{\sectionPrefix}{Problem }
+
+\title{TITLE_PLACEHOLDER}
+\author{TANUWIJAYA, Randy Stefan \\ (20582731) \\ rstanuwijaya@connect.ust.hk}
+\affil{Department of Physics - HKUST}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	\begin{section}{Section Name}
+		\begin{tcolorbox}
+		\end{tcolorbox}
+	\end{section}
+\end{document}
