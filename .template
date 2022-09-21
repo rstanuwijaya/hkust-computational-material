@@ -3,8 +3,8 @@
 
 \renewcommand{\sectionPrefix}{Problem }
 
-\title{TITLE_PLACEHOLDER}
-\author{TANUWIJAYA, Randy Stefan \\ (20582731) \\ rstanuwijaya@connect.ust.hk}
+\title{PHYS5120 TITLE_PLACEHOLDER}
+\author{TANUWIJAYA, Randy Stefan \footnote{\LaTeX\ source code: \url{https://github.com/rstanuwijaya/hkust-computational-material/}}\\ (20582731) \\ rstanuwijaya@connect.ust.hk}
 \affil{Department of Physics - HKUST}
 \date{\today}
 

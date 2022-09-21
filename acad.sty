@@ -62,6 +62,7 @@
 \usepackage{textcomp}
 \usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage{siunitx}
 
 \parindent 0in
 \parskip 1em
@@ -124,7 +125,7 @@
 		\section@base{\normalfont\Large\bfseries \sectionPrefix\thesection. }{#1}
 	}
 	\newcommand{\section@starred}[1]{
-		\section@base{\normalfont\Large\bfseries \thesection. }{#1}
+		\section@base{\normalfont\Large\bfseries }{#1}
 	}
 	\renewcommand{\section}{
 		\@ifstar{\section@starred}\section@unstarred

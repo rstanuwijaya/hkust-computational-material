@@ -1,11 +1,25 @@
 {
-    "latex-workshop.latex.recipes": [
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.tools": [
         {
-            "name": "pdflatex 🔃",
-            "tools": [
-                "pdflatex"
-            ]
-        }
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-shell-escape",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
     ],
-    "latex-workshop.latex.autoBuild.run": "onSave"
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latexindent.args": [
+        "-c",
+        "%DIR%/",
+        "%TMPFILE%",
+        "-l=%WORKSPACE_FOLDER%/.latexindent.yaml"
+    ]
 }

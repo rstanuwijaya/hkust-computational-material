@@ -1,0 +1,5 @@
+defaultIndent: "\t"
+
+indentRules:
+  section: ""
+  item: ""
