@@ -1,9 +1,36 @@
 {
     "editor.wordWrap": "on",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "lualatex 🔃",
+            "tools": [
+                "lualatex"
+            ]
+        },
+        {
+            "name": "pdflatex 🔃",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+    ],
     "latex-workshop.latex.tools": [
         {
             "name": "pdflatex",
             "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-shell-escape",
+                "-outdir=%OUTDIR%",
+                "%DOC%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "lualatex",
+            "command": "lualatex",
             "args": [
                 "-synctex=1",
                 "-interaction=nonstopmode",
