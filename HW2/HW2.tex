@@ -97,7 +97,7 @@ Use the ''md.py'' code provided here to run a MD simulation at the temperature $
 	\end{tcolorbox}
 
 	\newpage
-	\item Output unfolded coordinates as well as velocities in the Gromacs gro format: \url{http://manual.gromacs.org/archive/5.0.3/online/gro}. html. The length unit is nanometer (nm); the time unit is picosecond (ps); the velocity unit is nm/ps. A sample gro file for a MD trajectory is provided here. Save the trajectory on your machine (not canvas.ust.hk) and visualize it using the VMD software: \url{http://www.ks.uiuc.edu/ Research/vmd/}. In VMD, choose CPK as the drawing method (Graphics -> Representations -> Drawing Method) Attach one VMD screen shot in your PDF report. If your time step is very small, you do not need to write down every MD step, why? Use the saved gro file to do the following analyses.
+	\item Output unfolded coordinates as well as velocities in the Gromacs gro format: \url{http://manual.gromacs.org/archive/5.0.3/online/gro.html}. The length unit is nanometer (nm); the time unit is picosecond (ps); the velocity unit is nm/ps. A sample gro file for a MD trajectory is provided here. Save the trajectory on your machine (not canvas.ust.hk) and visualize it using the VMD software: \url{http://www.ks.uiuc.edu/ Research/vmd/}. In VMD, choose CPK as the drawing method (Graphics -> Representations -> Drawing Method) Attach one VMD screen shot in your PDF report. If your time step is very small, you do not need to write down every MD step, why? Use the saved gro file to do the following analyses.
 
 	\begin{tcolorbox}[breakable]
 		We have modified the \texttt{simulate()} function to output the coordinates and velocities in the Gromacs gro format for all of the 1000 frames. The output file is named \texttt{argon.gro}. The VMD screen shot is shown in Fig. \ref{fig:vmd}.
@@ -194,7 +194,7 @@ Use the ''md.py'' code provided here to run a MD simulation at the temperature $
         from math import sqrt, pi
         from itertools import product
 
-        sigma = 34.05  # nm
+        sigma = 0.3405  # nm
         t0 = 2.157  # ps
         n_bins = 100
 
